@@ -1,0 +1,56 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(185, 75%, 39%);
+
+  font-family: 'Kumbh Sans';
+
+  position:relative;
+  min-height:100%;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+
+  background-color: white;
+  background-image: url("bg-pattern-card.svg");
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction:column;
+  align-items: stretch;
+
+  position: absolute;
+}
+
+.profile-image, .profile-name, .social{
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-image{
+  padding-top: 80px;
+}
+
+.profile-image img{
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile-name{
+  text-align: center;
+  padding: 30px;
+}
+
+.social{
+  padding: 30px;
+}
