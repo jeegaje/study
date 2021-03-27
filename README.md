@@ -5,3 +5,4 @@ Mencoba projek dari frontmentor.io
 Anggota :
 - Angga
 - Jiyan
+- Fajar
